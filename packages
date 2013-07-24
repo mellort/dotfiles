@@ -1,0 +1,45 @@
+## http://askubuntu.com/questions/17823/how-to-list-all-installed-packages
+## Create a backup of what packages are currently installed:
+##   sudo dpkg --get-selections > list.txt
+## Then (on another system) restore installations from that list:
+##   sudo dpkg --clear-selections
+##   sudo dpkg --set-selections < list.txt
+## To get rid of stale packages
+##   sudo apt-get autoremove
+## To get installed like at backup time
+##   sudo apt-get dselect-upgrade
+
+ack-grep					install
+cheese						install
+compiz						install
+compiz-core					install
+compiz-gnome					install
+compiz-plugins-default				install
+cron						install
+cryptsetup-bin					install
+exuberant-ctags					install
+git						install
+git-man						install
+gnome-mplayer					install
+google-chrome-stable				install
+gparted						install
+gtk-redshift					install
+imagemagick					install
+java-common					install
+make						install
+makedev						install
+mplayer						install
+ncurses-base					install
+ncurses-bin					install
+pep8						install
+python						install
+redshift					install
+rsync						install
+tmux						install
+vim						install
+vim-common					install
+vim-gnome					install
+vim-gui-common					install
+vim-runtime					install
+vim-tiny					install
+wine						install
