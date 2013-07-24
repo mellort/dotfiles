@@ -1,8 +1,3 @@
 set editing-mode vi
 set keymap vi-insert
-bind 'set complete-ignore-case on'
-
-$if Bash
-  Space: magic-space
-$endif
 
